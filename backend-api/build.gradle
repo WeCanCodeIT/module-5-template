@@ -1,18 +1,11 @@
 plugins {
-	id 'org.springframework.boot' version '2.2.5.RELEASE'
-	id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+	id 'org.springframework.boot' version '2.3.5.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
 	id 'java'
 }
-
 group = 'org.wcci'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
-configurations {
-	developmentOnly
-	runtimeClasspath {
-		extendsFrom developmentOnly
-	}
-}
 repositories {
 	mavenCentral()
 }
